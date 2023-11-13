@@ -26,4 +26,4 @@ time = dataMatrix(:, 2);
 normalised_Data = sensorData/1024;
 
 % Display the vectors
-plot(time, sensor, Marker=".");
+plot(time, normalised_Data, Marker=".");
