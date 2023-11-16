@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EEG Footprints")(type "KiCad")(uri "${KIPRJMOD}/EEG Footprints.pretty")(options "")(descr ""))
+)

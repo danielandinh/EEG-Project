@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "EEG part lib")(type "KiCad")(uri "${KIPRJMOD}/EEG part lib.kicad_sym")(options "")(descr ""))
+  (lib (name "EEG_Part_Library")(type "KiCad")(uri "${KIPRJMOD}/EEG_Part_Library.kicad_sym")(options "")(descr ""))
 )
