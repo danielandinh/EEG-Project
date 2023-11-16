@@ -29,7 +29,7 @@ SoftwareSerial BTSerial(2, 3);
 void setup() {
     Serial.begin(38400);
     BTSerial.begin(38400);
-    StartTime = millis();
+    StartTime = millis(); // read start time
     
 //  Uncomment to set up AT Mode
 //  BTSerial.print("AT\r\n"); delay(200);
@@ -44,12 +44,12 @@ void setup() {
 
 void loop(){
     // reading and printing the value
-    int sensorValue = analogRead(electrode1);
+    int sensorValue = analogRead(electrode1); // 10 bit, 0-1023
     Serial.print(sensorValue); 
     BTSerial.print(sensorValue);
   
     // printing time value
-    unsigned long CurrentTime = millis();
+    unsigned long CurrentTime = millis(); // reads time in milliseconds
     unsigned long ElapsedTime = CurrentTime - StartTime;
     Serial.print(", ");
     Serial.println(ElapsedTime);

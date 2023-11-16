@@ -54,7 +54,7 @@ def validate_data(data: list[int], prev: list[int]) -> bool:
 
 	# else: data is valid
 	return True
-	
+
 def write_to_file(data, filepath):
 	"""
 	Writes validated data to text file
